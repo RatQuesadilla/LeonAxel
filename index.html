@@ -39,6 +39,18 @@
                 <td><label>Joaquin</label></td>
             </tr>
         </table>
+        <div>
+            <button>Decir hola!</button>
+        </div>
         <a href="https://github.com/RatQuesadilla/LeonAxel">Ve a mi github</a>
     </body>
+
+    <script>
+        const mybutton = document.getElementsByTagName("button");
+        function decirHola(){
+            console.log("Este es un corrido de terror encabronado");
+        }
+        mybutton.item(0).addEventListener("mouseover",decirHola);
+
+    </script>
 </html>
